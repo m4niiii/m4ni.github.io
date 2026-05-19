@@ -1,0 +1,404 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script>
+      function checkWidth(){
+        if(window.innerWidth <= 767){
+          window.location.href = "mobile.html";
+        }
+      }
+      checkWidth();
+      window.addEventListener("resize", checkWidth);
+    </script>
+
+    <title>Mani Commissions</title>
+
+    <!-- FAVICONS -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./commission-images/favicon-16x16.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./commission-images/favicon-32x32.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./commission-images/apple-touch-icon.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./commission-images/android-chrome-192x192.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="./commission-images/android-chrome-512x512.png"
+    />
+
+    <meta name="theme-color" content="#050505" />
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./css/desktop.css" />
+  </head>
+
+  <body>
+    <!-- BACKGROUND -->
+
+    <div class="cinematic-bg">
+      <div class="cinematic-overlay"></div>
+    </div>
+
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="header-inner">
+        <img class="logo" src="./commission-images/mani.png" alt="Mani Logo" />
+
+        <nav class="desktop-nav">
+          <a href="#about"> ABOUT </a>
+
+          <a href="#pricing"> PRICING </a>
+
+          <a href="#gallery"> GALLERY </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="main-wrapper">
+      <!-- HERO -->
+
+      <section class="hero-section">
+        <div class="hero-left">
+          <p class="hero-tag">ROBLOX CLOTHING DESIGNER</p>
+
+          <h1 class="hero-title">
+            MANI'S<br />
+            COMMISSIONS
+          </h1>
+
+          <p class="hero-subtitle">
+            HEY THERE, I AM
+
+            <span class="name-highlight"> MANI :) </span>
+          </p>
+
+          <div class="hero-buttons">
+            <a
+              class="hero-button"
+              href="https://www.roblox.com/users/profile"
+              target="_blank"
+            >
+              <img
+                class="button-icon"
+                src="./commission-images/roblox.png"
+                alt="Roblox"
+              />
+
+              <span> ROBLOX PROFILE </span>
+            </a>
+
+            <button class="hero-button discord-button" id="copyDiscord">
+              <img
+                class="button-icon"
+                src="./commission-images/discord.png"
+                alt="Discord"
+              />
+
+              <span> COPY DISCORD </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-image-container">
+            <img
+              class="hero-image"
+              src="./commission-images/pfp.jpg"
+              alt="Profile"
+            />
+          </div>
+
+          <div class="hero-side-info">
+            <div class="side-box">
+              <p>5+ YEARS EXPERIENCE</p>
+            </div>
+
+            <div class="side-box">
+              <p>
+                CONTRIBUTED TO
+
+                <span class="visit-highlight"> 6B+ </span>
+
+                VISITS
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT + PRICES -->
+
+      <section class="editorial-grid">
+        <div class="editorial-card" id="about">
+          <span class="card-number"> 01 </span>
+
+          <h2 class="editorial-title">ABOUT ME</h2>
+
+          <div class="editorial-text">
+            <p>
+              <span class="highlight"> WITH OVER 5 YEARS OF EXPERIENCE, </span>
+
+              I SPECIALIZE IN ROBLOX CLOTHING DESIGN INCLUDING UNIFORMS,
+              MILITARY OUTFITS, MEDIEVAL ARMOR, STREETWEAR, AND MORE.
+            </p>
+
+            <p>
+              I’VE CONTRIBUTED TO WELL-KNOWN ROBLOX EXPERIENCES INCLUDING
+
+              <span class="highlight"> DEAD RAILS </span>
+
+              WITH PROJECTS REACHING BILLIONS OF VISITS.
+            </p>
+
+            <p>
+              WHETHER YOU NEED SOMETHING SIMPLE OR HIGHLY DETAILED,
+
+              <span class="highlight"> I CAN BRING YOUR IDEAS TO LIFE </span>
+
+              AT A FAIR PRICE.
+            </p>
+          </div>
+        </div>
+
+        <div class="editorial-card" id="pricing">
+          <span class="card-number"> 02 </span>
+
+          <h2 class="editorial-title">PRICES / TOS</h2>
+
+          <div class="editorial-text">
+            <p>
+              <span class="highlight"> STARTING PRICE: </span>
+
+              $15 / R$2000 PER SET
+            </p>
+
+            <p>
+              FINAL PRICING DEPENDS ON
+
+              <span class="highlight"> DETAIL, STYLE, AND COMPLEXITY. </span>
+            </p>
+
+            <p>
+              <span class="highlight"> BULK ORDERS </span>
+
+              RECEIVE DISCOUNTED RATES.
+            </p>
+
+            <p>PLEASE SEND REFERENCES/CONCEPTS BEFORE ORDERING.</p>
+
+            <p>
+              <span class="highlight">
+                PLEASE BE PATIENT — QUALITY WORK TAKES TIME.
+              </span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+
+      <section class="gallery-section" id="gallery">
+        <p class="gallery-small">PORTFOLIO</p>
+
+        <h2 class="gallery-title">GALLERY</h2>
+
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-1s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-2s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-3s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-4s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-5s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-6s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-7s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-8s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-9s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-10s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-11s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-12s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-13s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-14s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-15s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-16s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-17s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-18s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-19s.png"
+            />
+          </div>
+          <div class="gallery-card">
+            <img
+              class="gallery-image"
+              src="./commission-images/Showcase-20s.png"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <img
+        class="footer-logo"
+        src="./commission-images/mani.png"
+        alt="Footer Logo"
+      />
+
+      <p class="footer-text">
+        <strong> MANI'S </strong>
+
+        COMMISSIONS
+      </p>
+    </footer>
+
+    <!-- IMAGE MODAL -->
+
+    <div class="image-modal" id="imageModal">
+      <div class="modal-overlay" id="modalOverlay"></div>
+
+      <div class="modal-wrapper">
+        <img class="modal-image" id="modalImage" draggable="false" />
+
+        <button class="modal-close" id="modalClose">×</button>
+      </div>
+    </div>
+    <!-- JS -->
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
